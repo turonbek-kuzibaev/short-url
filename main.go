@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
-	"github.com/turonbek-kuzibaev/go-url-shortener/handler"
-	"github.com/turonbek-kuzibaev/go-url-shortener/store"
+	"github.com/turonbek-kuzibaev/short-url/handler"
+	"github.com/turonbek-kuzibaev/short-url/store"
 )
 
 func main() {

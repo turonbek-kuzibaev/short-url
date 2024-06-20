@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/turonbek-kuzibaev/go-url-shortener/shortener"
-	"github.com/turonbek-kuzibaev/go-url-shortener/store"
+	"github.com/turonbek-kuzibaev/short-url/shortener"
+	"github.com/turonbek-kuzibaev/short-url/store"
 )
 
 type UrlCreationRequest struct {
